@@ -1,6 +1,10 @@
 import React from "react";
 import NoteContent from "./NoteContent";
 
+{
+  /* Container of the To Do Lists */
+}
+
 export default function NoteContainer() {
   return (
     <div>
@@ -8,6 +12,7 @@ export default function NoteContainer() {
         <div className="card-header row">
           <b>To Do</b>
         </div>
+        {/* NoteContent component which contains To Do item title and description*/}
         <NoteContent />
         <NoteContent />
         <NoteContent />
