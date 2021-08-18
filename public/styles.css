@@ -1,0 +1,17 @@
+body {
+  background-color: #e6e6e6;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.form-control::placeholder {
+  font-size: 0.95 rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.completed {
+  text-decoration: line-through;
+}
